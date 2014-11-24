@@ -15,12 +15,6 @@
   <packaging>war</packaging>
   <name>mywallet war</name>
 
-  <scm>
-    <connection>scm:git:</connection>
-    <developerConnection>scm:git:</developerConnection>
-    <url></url>
-  </scm>
-
   <build>
     <finalName>mywallet</finalName>
     <plugins>

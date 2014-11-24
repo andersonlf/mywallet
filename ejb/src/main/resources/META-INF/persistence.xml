@@ -2,13 +2,10 @@
   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
   version="2.1">
 
-  <persistence-unit name="emWalmart" transaction-type="JTA">
+  <persistence-unit name="emMyWallet" transaction-type="JTA">
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
-    <jta-data-source>java:jboss/datasources/WalmartDS</jta-data-source>
+    <jta-data-source>java:jboss/datasources/MyWalletDS</jta-data-source>
     
-    <class>br.com.walmart.entidades.Malha</class>
-    <class>br.com.walmart.entidades.Ponto</class>
-    <class>br.com.walmart.entidades.Trecho</class>
     <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
     <properties>

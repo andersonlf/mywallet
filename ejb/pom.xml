@@ -15,12 +15,6 @@
   <packaging>ejb</packaging>
   <name>mywallet ejb</name>
 
-  <scm>
-    <connection>scm:git:</connection>
-    <developerConnection>scm:git:</developerConnection>
-    <url></url>
-  </scm>
-
   <build>
     <plugins>
       <plugin>

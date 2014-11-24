@@ -18,6 +18,10 @@ hs_err_pid*
 .externalToolBuilders/
 .settings/
 
+# idea files
+*.iml
+.idea/
+
 # maven files
 target/
 bin/
